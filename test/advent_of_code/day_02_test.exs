@@ -3,19 +3,27 @@ defmodule AdventOfCode.Day02Test do
 
   import AdventOfCode.Day02
 
-  @tag :skip
   test "part1" do
-    input = nil
-    result = part1(input)
+    input = """
+ULL
+RRDDD
+LURDL
+UUUUD
+"""
+    result = part1(String.trim(input))
 
-    assert result
+    assert result == 1985
   end
 
-  @tag :skip
   test "part2" do
-    input = nil
+    input = """
+ULL
+RRDDD
+LURDL
+UUUUD
+"""
     result = part2(input)
 
-    assert result
+    assert result == "5DB3"
   end
 end
