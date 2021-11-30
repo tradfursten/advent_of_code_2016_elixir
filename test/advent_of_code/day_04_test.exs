@@ -3,19 +3,17 @@ defmodule AdventOfCode.Day04Test do
 
   import AdventOfCode.Day04
 
-  @tag :skip
   test "part1" do
-    input = nil
+    input = "aaaaa-bbb-z-y-x-123[abxyz]"
     result = part1(input)
 
-    assert result
+    assert result == 123
   end
 
-  @tag :skip
   test "part2" do
-    input = nil
+    input = "aaaaa-bbb-z-y-x-2[abxyz]"
     result = part2(input)
-
+    IO.inspect(result)
     assert result
   end
 end
