@@ -3,18 +3,18 @@ defmodule AdventOfCode.Day08Test do
 
   import AdventOfCode.Day08
 
-  @tag :skip
   test "part1" do
-    input = nil
+    input = "16,1,2,0,4,2,7,1,2,14" |> String.trim
     result = part1(input)
+    IO.inspect(result)
 
     assert result
   end
 
-  @tag :skip
   test "part2" do
-    input = nil
+    input = "16,1,2,0,4,2,7,1,2,14" |> String.trim
     result = part2(input)
+    IO.inspect(result)
 
     assert result
   end
